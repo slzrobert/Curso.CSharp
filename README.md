@@ -1,2 +1,2 @@
 # Curso.CSharp
-Projeto de Treinamento API .NET Core 3.1
+Projeto de Treinamento API .NET 6.0
