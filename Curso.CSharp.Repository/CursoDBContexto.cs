@@ -1,11 +1,11 @@
-﻿using Curso.CSharp.Repository.Model;
+﻿using Curso.CSharp.Models.Entidades;
 using Microsoft.EntityFrameworkCore;
 
 namespace Curso.CSharp.Repository
 {
-    public class CursoDBContexto : DbContext
+    public class CursoDbContexto : DbContext
     {
-        public CursoDBContexto(DbContextOptions<CursoDBContexto> options)
+        public CursoDbContexto(DbContextOptions<CursoDbContexto> options)
             : base(options)
         {
         }

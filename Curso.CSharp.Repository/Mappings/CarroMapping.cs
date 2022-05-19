@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
-using Curso.CSharp.Repository.Dto;
-using Curso.CSharp.Repository.Model;
+using Curso.CSharp.Models.Dtos;
+using Curso.CSharp.Models.Entidades;
 
 namespace Curso.CSharp.Repository.Mappings
 {

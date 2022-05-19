@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Curso.CSharp.ConsoleTeste": {
+      "commandName": "Project",
+      "commandLineArgs": "MA"
+    }
+  }
+}

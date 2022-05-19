@@ -1,4 +1,4 @@
-﻿namespace Curso.CSharp.Repository.Model
+﻿namespace Curso.CSharp.Models.Entidades
 {
     public class Carro
     {

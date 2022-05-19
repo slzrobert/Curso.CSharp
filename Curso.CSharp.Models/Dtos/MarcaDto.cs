@@ -1,4 +1,4 @@
-﻿namespace Curso.CSharp.Repository.Dto
+﻿namespace Curso.CSharp.Models.Dtos
 {
     public class MarcaDto
     {

@@ -15,7 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Curso.CSharp.Service", "Cur
 		{623DFD78-2F26-4D73-9F66-FBB2159E22FF} = {623DFD78-2F26-4D73-9F66-FBB2159E22FF}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Curso.CSharp.Test", "Curso.CSharp.Test\Curso.CSharp.Test.csproj", "{D4376625-2448-4DEE-8A9A-8B1766966E54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Curso.CSharp.Test", "Curso.CSharp.Test\Curso.CSharp.Test.csproj", "{D4376625-2448-4DEE-8A9A-8B1766966E54}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Curso.CSharp.ConsoleTeste", "Curso.CSharp.Console\Curso.CSharp.ConsoleTeste.csproj", "{A94A3F5B-9977-4CF6-80B1-C2B53A4246DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Curso.CSharp.Models", "Curso.CSharp.Models\Curso.CSharp.Models.csproj", "{8FF44553-09CF-4E99-BCF9-7821413DE218}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{D4376625-2448-4DEE-8A9A-8B1766966E54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4376625-2448-4DEE-8A9A-8B1766966E54}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4376625-2448-4DEE-8A9A-8B1766966E54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A94A3F5B-9977-4CF6-80B1-C2B53A4246DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A94A3F5B-9977-4CF6-80B1-C2B53A4246DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A94A3F5B-9977-4CF6-80B1-C2B53A4246DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A94A3F5B-9977-4CF6-80B1-C2B53A4246DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FF44553-09CF-4E99-BCF9-7821413DE218}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FF44553-09CF-4E99-BCF9-7821413DE218}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FF44553-09CF-4E99-BCF9-7821413DE218}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FF44553-09CF-4E99-BCF9-7821413DE218}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
