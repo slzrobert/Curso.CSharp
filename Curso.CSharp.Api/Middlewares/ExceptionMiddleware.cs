@@ -32,7 +32,7 @@ namespace Curso.CSharp.Api.Middlewares
             }
         }
 
-        private async Task HandleApiExceptionAsync(HttpContext context, Exception exception)
+        private static async Task HandleApiExceptionAsync(HttpContext context, Exception exception)
         {
             context.Response.ContentType = "application/json";
             context.Response.StatusCode = (int)HttpStatusCode.BadRequest;
@@ -45,7 +45,7 @@ namespace Curso.CSharp.Api.Middlewares
             }.ToString());
         }
 
-        private async Task HandleExceptionAsync(HttpContext context, Exception exception)
+        private static async Task HandleExceptionAsync(HttpContext context, Exception exception)
         {
             context.Response.ContentType = "application/json";
             context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;

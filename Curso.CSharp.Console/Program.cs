@@ -34,7 +34,7 @@ namespace Curso.CSharp.ConsoleTeste
             logger.LogInformation("Você conseguiu configurar Logger.");
 
 
-            DateTime data = new DateTime(2022, 3, 21, 12, 56, 28);
+            var data = new DateTime(2022, 3, 21, 12, 56, 28);
 
             Console.WriteLine(data.Date);
 
@@ -62,9 +62,9 @@ namespace Curso.CSharp.ConsoleTeste
                 Address = new Address
                 {
                     Id = "1",
-                    StreetName = "Rua 15 Unidade 101 Cidade Operaria",
+                    StreetName = "Rua 10 Cidade Nova",
                     StreetNumber = 5,
-                    ZipCode = "65058029"
+                    ZipCode = "68078020"
                 },
                 DateRegistered = "2022-02-20",
                 DefaultAddress = "Home",
@@ -79,8 +79,8 @@ namespace Curso.CSharp.ConsoleTeste
                 },
                 Phone = new Phone
                 {
-                    AreaCode = "098",
-                    Number = "32470535"
+                    AreaCode = "099",
+                    Number = "33330000"
                 }
             };
 

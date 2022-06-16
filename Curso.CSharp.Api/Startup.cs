@@ -53,6 +53,8 @@ namespace Curso.CSharp.Api
              services.AddControllers()
                 .AddNewtonsoftJson(opt => opt.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
             */
+
+            services.AddAuthorization();
             
             services.AddMvcCore()
                 .AddNewtonsoftJson(opt =>

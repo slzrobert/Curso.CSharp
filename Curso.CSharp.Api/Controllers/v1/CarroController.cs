@@ -69,5 +69,19 @@ namespace Curso.CSharp.Api.Controllers.v1
             }
             return cars;
         }
+
+        /// <summary>
+        /// Lista paginada de carros.
+        /// </summary>
+        [HttpPost("cadastrar")]
+        [ProducesResponseType(typeof(ErrorDetails), (int)HttpStatusCode.InternalServerError)]
+        [ProducesResponseType(typeof(ErrorDetails), (int)HttpStatusCode.BadRequest)]
+        [ProducesResponseType(typeof(List<CarroDto>), (int)HttpStatusCode.OK)]
+        public Task<IActionResult> Cadastrar(
+            [FromBody] CarroEntryDto carro
+            )
+        {
+            return Task.FromResult<IActionResult>(Ok(carro));
+        }
     }
 }
